@@ -1,0 +1,7 @@
+@import "tailwindcss/base";
+@import "./styles/global";
+@import './styles/common/typography';
+@import "./styles/components/list";
+@import "./styles/layouts/page-section";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";

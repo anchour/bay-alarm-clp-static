@@ -1,0 +1,15 @@
+ul > li {
+  @apply ml-0 pl-10 py-1 mb-2 relative;
+}
+
+ul > li::before {
+  background: svg-load("icons/shield-checkmark.svg", fill=#004B70) no-repeat 50%;
+  background-size: 1.75rem 1.75rem;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1.75rem;
+  height: 1.75rem;
+}
