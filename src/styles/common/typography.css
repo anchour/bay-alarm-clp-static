@@ -1,3 +1,9 @@
+.typography-h1 {
+  @apply font-black mb-4 leading-tight;
+  
+  font-size: clamp(2.25rem, 5vw, 5rem);
+}
+
 .typography-h2 {
   @apply text-4xl lg:text-[3.1875rem] leading-[1.125] font-black mb-4;
 }
